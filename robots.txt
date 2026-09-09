@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://consulting.arnaudlegout.fr/sitemap.xml
