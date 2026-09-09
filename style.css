@@ -1295,6 +1295,8 @@ button.nav__link {
   }
 }
 
+.about-hero__inner .page-hero__subtitle { margin-bottom: 0; }
+
 .about-hero__photo {
   width: 200px;
   height: 260px;
