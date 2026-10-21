@@ -1038,7 +1038,6 @@ button.nav__link {
   color: var(--color-text);
   margin-bottom: 0.875rem;
 }
-.footer__tagline:has(+ .footer__tagline) { margin-bottom: 0.25rem; }
 
 .footer__link-list,
 .footer__contact-list {
