@@ -10,5 +10,6 @@
 - [Arnaud Legout — directeur de recherche Inria, conseil data science](https://consulting.arnaudlegout.fr/a-propos.html) : Directeur de recherche à Inria, plus de vingt ans d'analyse de données à grande échelle, deux startups, formateur Python depuis 2011. Pourquoi un regard indépendant.
 - [Contact — conseil data science | Arnaud Legout](https://consulting.arnaudlegout.fr/contact.html) : Décrivez votre situation : traitements lents, agents IA, analyse à relire. Réponse sous 48 heures avec une proposition de diagnostic ou d'intervention.
 
-## Autre site
+## Autres sites
+- [Arnaud Legout — directeur de recherche Inria, formation et conseil en data science](https://arnaudlegout.fr/) : site personnel, parcours et recherche.
 - [Arnaud Legout — Formations Python data science](https://formation.arnaudlegout.fr/)

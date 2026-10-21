@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Audit data science indépendant : performance, agents IA, analyses | Arnaud Legout</title>
+  <title>Audit data science indépendant : performance, agents IA, analyses | Arnaud Legout</title>
   <meta name="description" content="Traitements lents ou coûteux, code produit avec des agents IA, analyses non relues : diagnostic d'une à deux journées par un directeur de recherche Inria.">
 
   <!-- Google Search Console -->
@@ -133,14 +133,7 @@
               }
             }
           ]
-        },
-        "sameAs": [
-          "https://www-sop.inria.fr/members/Arnaud.Legout/",
-          "https://www.linkedin.com/in/arnaud-legout-866a404/",
-          "https://scholar.google.com/citations?user=uGy5lroAAAAJ",
-          "https://formation.arnaudlegout.fr/",
-          "https://consulting.arnaudlegout.fr/"
-        ]
+        }
       }
     ]
   }
@@ -376,11 +369,13 @@
       if (!btn || !menu) return;
       function closeMenu() {
         btn.setAttribute('aria-expanded', 'false');
+        btn.setAttribute('aria-label', 'Ouvrir le menu de navigation');
         menu.classList.remove('is-open');
       }
       btn.addEventListener('click', function () {
         var open = btn.getAttribute('aria-expanded') === 'true';
         btn.setAttribute('aria-expanded', String(!open));
+        btn.setAttribute('aria-label', open ? 'Ouvrir le menu de navigation' : 'Fermer le menu de navigation');
         menu.classList.toggle('is-open', !open);
       });
       menu.addEventListener('click', function (e) {
